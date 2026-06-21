@@ -17,7 +17,6 @@ public class BaseScreen {
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
-
     public void type(WebElement element, String text) {
         element.click();
         element.clear();

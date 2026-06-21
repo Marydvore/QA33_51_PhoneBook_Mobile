@@ -29,7 +29,7 @@ public class AppiumConfig {
         UiAutomator2Options options = new UiAutomator2Options();
         options.setPlatformName("Android");
         options.setAutomationName("UiAutomator2");
-        options.setDeviceName("my");
+        options.setDeviceName("telefon");
         options.setPlatformVersion("11.0");
         options.setAppPackage("com.sheygam.contactapp");
         options.setAppActivity(".SplashActivity");

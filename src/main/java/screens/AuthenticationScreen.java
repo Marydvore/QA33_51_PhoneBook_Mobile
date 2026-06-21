@@ -9,7 +9,6 @@ public class AuthenticationScreen extends BaseScreen {
         super(driver);
     }
 
-
     @AndroidFindBy(id = "com.sheygam.contactapp:id/inputEmail")
     WebElement emailEditText;
 
@@ -18,7 +17,6 @@ public class AuthenticationScreen extends BaseScreen {
 
     @AndroidFindBy(id = "com.sheygam.contactapp:id/loginBtn")
     WebElement loginBtn;
-
 
     public AuthenticationScreen fillEmail(String email) {
         //pause(4000)
